@@ -1,4 +1,27 @@
 // Specific CSS for your home-page
-.titre {
-  color: green;
+.nav {
+  background-color: #3F610A;
+  width: 1440px;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
 }
+
+.logo {
+  height: 170%;
+}
+
+.liens {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-family: "Comfortaa", sans-serif;
+}
+.liens a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 30px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
