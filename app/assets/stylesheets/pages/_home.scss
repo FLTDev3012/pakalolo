@@ -25,3 +25,57 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+
+// HERO BANNER
+
+.main-img-container {
+  content: "";
+  background-color: red;
+  height: calc(100vh - 70px);
+  overflow: hidden;
+  position: relative;
+}
+
+.main-img-back {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 100%;
+  height: auto;
+
+}
+
+.main-img-front {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 100%;
+  height: auto;
+
+}
+
+.main-img-logo {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 50%;
+  height: auto;
+  opacity: .1;
+
+}
+
+// blockblanc
+
+.blockblanc {
+  content: "";
+  height: 100vh;
+  width: 100vw;
+  background-color: #fff;
+}
